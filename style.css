@@ -1,0 +1,117 @@
+body{
+    background-color: aliceblue;
+    max-width: fit-content;
+    width:100%;
+}
+main{
+    margin-left: 30%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    width: 800px;
+    display:flex;
+    flex-flow: row;
+
+}
+.box1{
+    background-color: hsl(31, 77%,52%);
+    width:20%;
+    height:60vh;
+    padding-left: 20px;
+    padding-right:20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    width:20%;
+    height:60vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    width:20%;
+    height:60vh;
+    padding-left: 20px;
+    padding-right:20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box1 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box1 p{
+    color: white;
+    font-family: 'Arial Narrow Bold';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+.box1 button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-top: 5px;
+    border-color: white;
+    width:80%;
+    height: 5vh;
+}
+.box1 button{
+    color: orange;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif
+}
+.box3 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box3 p{
+    color: white;
+    font-family: 'Arial Narrow Bold';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+.box3 button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-top: 5px;
+    border-color: white;
+    width:80%;
+    height: 5vh;
+}
+.box3 button{
+    color:hsl(179, 100%, 13%);
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif
+}
+.box2 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box2 p{
+    color: white;
+    font-family: 'Arial Narrow Bold';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+.box2 button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-top: 5px;
+    border-color: white;
+    width:80%;
+    height: 5vh;
+}
+.box2 button{
+    color: hsl(184, 100%, 22%);
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif
+}
